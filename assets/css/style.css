@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url("../images/gravel.png");
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #ffffff;
+    
+    
+    
+    
+}
+
+section {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 15%;
+    margin-left: 14%;
+    padding: 2%;
+    display: inline-block
+   
+    
+    
+
+}
+
+.button-container {
+    display: inline-block;
+    margin-left: 45%;
+
+    
+}
+
+.main-content {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 960px;
+    padding: 20px;
+    margin: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 5px;
+    border-color: #dddddd;
+    flex: 1 0 auto;
+  
+}
+
+
+h1 {
+    text-align: left;
+    padding: 10px; 
+    border-color: 
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0; 
+    
+    
+}
