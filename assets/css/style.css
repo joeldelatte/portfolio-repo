@@ -64,7 +64,42 @@ section {
     border: 5px;
     border-color: #dddddd;
     flex: 1 0 auto;
-  
+    
+}
+
+.form {
+    text-align: left;
+}
+/* I'm trying to change the font-family and font color for the labels of each input and text area. It shoult be correct because it is defined already in the body */
+
+/* label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font: #777777;
+} */
+
+.input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#message-input {
+    text-align: left;
+    height: 300px;
+    resize: none;
+    
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px;
+}
+
+.portrait {
+    width: 180px;
+    height: 275px;
+    float: left;
 }
 
 p {
@@ -79,11 +114,7 @@ h1 {
     text-align: left; 
     color: #4aaaa5;
     border-bottom: 2px solid #cccccc;
-
-    
-    
-    
-      
+     
 }
 
 footer {
@@ -94,6 +125,5 @@ footer {
     padding-top: 40px;
     border-top: 8px solid #4aaaa5;
     flex-shrink: 0; 
-    
     
 }
