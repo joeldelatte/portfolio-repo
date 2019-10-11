@@ -1,46 +1,62 @@
 html, body {
     height: 100%;
 }
+
 body {
     background-image: url("../images/gravel.png");
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
 header {
-    background-color: #ffffff;
-    
-    
+    background-color: #ffffff; 
     
     
 }
 
+#container-width {
+    max-width: 960px;
+    min-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
 section {
     text-align: center;
     background-color: #4aaaa5;
     width: 15%;
-    margin-left: 14%;
-    padding: 2%;
-    display: inline-block
-   
-    
+    padding: 20px;
+    float: left;
     
 
 }
 
 .button-container {
-    display: inline-block;
-    margin-left: 45%;
-
+    float: right;
+    padding-top: 20px;
     
+}
+
+.button {
+    border-right-color: #cccccc;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+#third-button {
+    border: none;
 }
 
 .main-content {
     text-align: center;
     background-color: #ffffff;
     max-width: 960px;
+    min-width: 960px;
     padding: 20px;
     margin: 50px;
     margin-left: auto; 
@@ -51,18 +67,31 @@ section {
   
 }
 
+p {
+    color: #777777;
+    
+
+}
+
 
 h1 {
-    text-align: left;
-    padding: 10px; 
-    border-color: 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: left; 
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+
     
+    
+    
+      
 }
 
 footer {
     text-align: center;
+    font-size: small;
+    padding-bottom: 0;
     background-color: #666666;
-    padding: 20px;
+    padding-top: 40px;
     border-top: 8px solid #4aaaa5;
     flex-shrink: 0; 
     
