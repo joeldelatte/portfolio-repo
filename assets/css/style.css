@@ -8,36 +8,31 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 header {
     background-color: #ffffff; 
-    
-    
 }
 
 #container-width {
     max-width: 960px;
     min-width: 960px;
     margin-left: auto;
-    margin-right: auto;
-      
+    margin-right: auto;    
 }
+
 section {
+    color: #ffffff;
     text-align: center;
     background-color: #4aaaa5;
     width: 15%;
     padding: 20px;
     float: left;
-    
-
 }
 
 .button-container {
     float: right;
-    padding-top: 20px;
-    
+    padding-top: 20px;  
 }
 
 .button {
@@ -45,11 +40,12 @@ section {
     border-left: none;
     border-top: none;
     border-bottom: none;
-
+    color: #777777;
 }
 
 #third-button {
     border: none;
+    color: #777777;
 }
 
 .main-content {
@@ -68,14 +64,9 @@ section {
 }
 
 .form {
+    color: #777777;
     text-align: left;
 }
-/* I'm trying to change the font-family and font color for the labels of each input and text area. It shoult be correct because it is defined already in the body */
-
-/* label {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font: #777777;
-} */
 
 .input {
     width: 100%;
@@ -87,13 +78,14 @@ section {
     text-align: left;
     height: 300px;
     resize: none;
-    
 }
 
 input[type=submit] {
+    color: #ffffff;
     background-color: #4aaaa5;
     border: none;
     padding: 10px;
+    width: 100px;  
 }
 
 .portrait {
@@ -103,9 +95,7 @@ input[type=submit] {
 }
 
 p {
-    color: #777777;
-    
-
+    color: #777777; 
 }
 
 
@@ -113,17 +103,45 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: left; 
     color: #4aaaa5;
-    border-bottom: 2px solid #cccccc;
-     
+    border-bottom: 2px solid #cccccc;   
+}
+
+.project-box{
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.project-photo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;   
+}
+
+#project-label {
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 footer {
     text-align: center;
     font-size: small;
+    color: #ffffff;
     padding-bottom: 0;
     background-color: #666666;
     padding-top: 40px;
     border-top: 8px solid #4aaaa5;
-    flex-shrink: 0; 
-    
+    flex-shrink: 0;  
 }
