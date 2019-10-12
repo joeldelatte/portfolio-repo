@@ -49,7 +49,7 @@ section {
 }
 
 .main-content {
-    text-align: center;
+    text-align: left;
     background-color: #ffffff;
     max-width: 960px;
     min-width: 960px;
@@ -92,6 +92,7 @@ input[type=submit] {
     width: 180px;
     height: 275px;
     float: left;
+    margin-right: 10px;
 }
 
 p {
